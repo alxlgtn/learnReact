@@ -1,5 +1,5 @@
 import {Component} from "react";
-import "./Header.css";
+import "./Footer.css";
 
 const Header = () => {
     return <header className="header">
