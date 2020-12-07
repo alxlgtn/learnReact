@@ -1,4 +1,5 @@
 import {Component} from "react";
+import "./Navbar.css";
 
 const Navbar = () => {
     return <nav className="nav">
