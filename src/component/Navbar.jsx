@@ -1,14 +1,14 @@
-import {Component} from "react";
-import "./Navbar.css";
+import React from "react";
+import stl from "./Navbar.module.css";
 
 const Navbar = () => {
-    return <nav className="nav">
-        <a className="navItem" href="#">home</a>
-        <a className="navItem" href="#">about</a>
-        <a className="navItem" href="#">bio</a>
-        <a className="navItem" href="#">portfolio</a>
-        <a className="navItem" href="#">contacts</a>
+    return <nav className={stl.nav}>
+        <a className={stl.item } href="./">home</a>
+        <a className={stl.item} href="./">about</a>
+        <a className={stl.item} href="./">bio</a>
+        <a className={stl.item} href="./">portfolio</a>
+        <a className={stl.item} href="./">contacts</a>
     </nav>
 }
 
-export default Navbar
+export default Navbar;

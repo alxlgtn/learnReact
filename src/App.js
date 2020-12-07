@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
-import './App.css';
-import {Component} from "react";
+import "./App.css";
+import React from "react";
+
 import Header from "./component/Header";
 import Navbar from "./component/Navbar";
 import Profile from "./component/Profile";
