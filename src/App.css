@@ -30,7 +30,8 @@
 }
 .footer{
   grid-area: footer;
-  background-color: #ea00ff;
+  background-color: #fcd5ff;
+  padding: 15px;
 }
 .nav-item{
   margin-bottom: 10px;
