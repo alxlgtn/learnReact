@@ -1,9 +1,17 @@
 .header{
     grid-area: header;
-    background-color: #ddfdcb;
-    padding: 10px;
+    background-color: #d0d0d0;
+    padding: 5px 10px;
+    border-bottom: solid 1px #aeaeae;
+
+
 }
-.logoImg{
-    width: 60px;
-    /*height: 50px;*/
+
+.innerHeader{
+    display: flex;
+    flex-direction: row;
 }
+/*.logoImg{*/
+/*    width: 60px;*/
+/*    !*height: 50px;*!*/
+/*}*/

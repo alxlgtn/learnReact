@@ -1,0 +1,12 @@
+.linkImg{
+    width: 30px;
+}
+.linkBlock{
+    display: flex;
+    flex-direction: row;
+
+    background-color: #ea9c9c;
+}
+.linkItem{
+    margin: 0 3px;
+}

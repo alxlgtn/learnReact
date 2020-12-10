@@ -1,0 +1,9 @@
+.ava{
+    height: 30px;
+    border-radius: 50%;
+}
+.personAvaBlock{
+    background-color: #ea9c9c;
+    display: flex;
+
+}
