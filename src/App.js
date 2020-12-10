@@ -2,10 +2,10 @@
 import "./App.css";
 import React from "react";
 
-import Header from "./component/Header";
-import Navbar from "./component/Navbar";
-import Profile from "./component/Profile";
-import Footer from './component/Footer';
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Profile from "./components/Profile/Profile";
+import Footer from './components/Footer/Footer';
 
 const App = () => {
     return (
