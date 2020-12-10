@@ -28,3 +28,10 @@ some code
 Моя основная`sasdas` рекомендация для изучения того, как работают 
 
 разрывы строк, _состоит в том, чтобы поэкспериментировать_ и обнаружить-нажмите <Enter> ~~один раз~~ (т. е. вставьте одну новую строку), затем нажмите ее дважды (т. е. вставьте две новые строки), посмотрите, что произойдет. Ты скоро научишься получать то, что хочешь. "Markdown Toggle" - это ваш друг.
+
+Youtube video
+---
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
