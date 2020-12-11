@@ -1,0 +1,33 @@
+.submitPostBlock{
+    background-color: #fff;
+    border-bottom: solid 1px #aeaeae;
+    border-radius: 3px;
+
+    margin-bottom: 10px;
+
+    display: flex;
+
+    padding:15px;
+}
+.header{
+    margin:0 0 10px 0;
+    padding: 0;
+    font-size: 24px;
+}
+.textarea{
+    width: 250px;
+    font-size: 12px;
+    padding: 6px 0 0 10px;
+    margin-left: 15px;
+    border: 1px solid #e0e0e0;
+    background: #F6F6f6;
+    border-radius: 3px;
+}
+.button{
+    font-size: 15px;
+    padding: 0 30px;
+    margin-left: 15px;
+    border: 1px solid #e0e0e0;
+    background: #F6F6f6;
+    border-radius: 3px;
+}

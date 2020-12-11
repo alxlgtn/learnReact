@@ -4,7 +4,7 @@ import stl from "./Footer.module.css";
 const Footer = () => {
     return (
         <footer className={stl.footer}>
-            <h4>footer!!!</h4>
+            <p>copyright © 2020 . All rights reserved by Alxlgtn</p>
         </footer>
     );
 }

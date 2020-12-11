@@ -1,12 +1,18 @@
-.linkImg{
-    width: 30px;
-}
 .linkBlock{
-    display: flex;
-    flex-direction: row;
+    /*background-color: #eafdd6;*/
 
-    background-color: #ea9c9c;
+    display: flex;
+    align-self: center;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
+
+.linkImg{
+    width: 20px;
+}
+
 .linkItem{
     margin: 0 3px;
 }

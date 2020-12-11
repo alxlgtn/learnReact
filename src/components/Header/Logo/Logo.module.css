@@ -1,7 +1,11 @@
 .logoBlock{
+    /*background-color: #fde3d6;*/
+
     display: flex;
-    flex-direction: row;
-    background-color: #ea9c9c;
+    align-self: center;
+
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .logoImg{
     width: 30px;

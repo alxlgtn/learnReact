@@ -1,20 +1,23 @@
 .nav{
     grid-area: navbar;
-    background-color: #fcfab1;
+    /*background-color: #eeeeee;*/
     display: flex;
     flex-direction: column;
     padding:15px;
 }
+
 .item{
-    margin-bottom: 10px;
+    display: flex;
+
+    margin-bottom: 3px;
     text-decoration: none;
     color: #666;
-    font-weight: bold;
 }
 .item:hover{
     color: darkblue;
-    text-decoration: underline;
 }
-.green{
-    color: green;
+
+.navImg{
+    width: 16px;
+    margin-right: 7px;
 }

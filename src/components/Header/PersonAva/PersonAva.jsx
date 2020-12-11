@@ -4,10 +4,10 @@ import stl from "./PersonAva.module.css";
 const PersonAva = () => {
     return (
         <div className={stl.personAvaBlock}>
-            <a href="./">
+            <a className={stl.item} href="./">
                 <img className={stl.ava} src="https://html5css.ru/howto/img_avatar.png" alt=""/>
             </a>
-            <p>Alxlgtn</p>
+            <p className={stl.item}>Alxlgtn</p>
         </div>
     );
 }

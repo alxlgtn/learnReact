@@ -1,11 +1,19 @@
 .search_block{
-    background-color: #ea9c9c;
+    /*background-color: #f9fdd6;*/
+
+    display: flex;
+    align-self: center;
+    flex-grow: 1;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 .search_input{
     width: 250px;
-    font-size: 13px;
+    font-size: 15px;
     padding: 6px 0 4px 10px;
-    border: 1px solid #cecece;
+    border: 1px solid #e0e0e0;
     background: #F6F6f6;
-    border-radius: 8px;
+    border-radius: 3px;
 }

@@ -1,9 +1,22 @@
+.personAvaBlock{
+    /*background-color: #d6f5fd;*/
+
+    display: flex;
+    align-self: center;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.item{
+    display: flex;
+    align-self: center;
+
+    padding-left: 3px;
+    padding-right: 3px;
+}
 .ava{
     height: 30px;
     border-radius: 50%;
-}
-.personAvaBlock{
-    background-color: #ea9c9c;
-    display: flex;
 
 }
