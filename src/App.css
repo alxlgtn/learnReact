@@ -365,6 +365,13 @@ template {
 
 
 /*Grid*/
+html {
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    height: 1vh;
+}
 .app-wrapper{
     display:grid;
     grid-template-areas: "header header" "navbar content" "footer footer";
@@ -375,6 +382,8 @@ template {
     /*background-color: #e7e7e7;*/
     max-width: 1170px;
     margin:0 auto;
+    height: 1vh;
+    min-height: 100%;
     /*padding: 0 15px ;*/
 
 }

@@ -1,9 +1,7 @@
 import React from "react";
-import stl from "./PostItem.module.css";
+import stl from "./DialogsPostsItem.module.css";
 
-// import GaleryItem from "./GaleryItem/GaleryItem";
-
-const PostItem = (props) => {
+const DialogsPostsItem = (props) => {
     return (
         <div className={stl.postItemBlock}>
             <div className={stl.avaBlock}>
@@ -27,4 +25,4 @@ const PostItem = (props) => {
     );
 }
 
-export default PostItem;
+export default DialogsPostsItem;
