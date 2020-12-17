@@ -13,8 +13,13 @@
     text-decoration: none;
     color: #666;
 }
+.active{
+    color: #000000;
+    font-weight: bold;
+}
 .item:hover{
     color: darkblue;
+
 }
 
 .navImg{

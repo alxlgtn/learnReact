@@ -1,31 +1,32 @@
 import React from "react";
 import stl from "./Navbar.module.css";
+import {NavLink} from "react-router-dom";
 
 // import NavItem from "./NavItem/NavItem";
 
 const Navbar = () => {
     return (
         <nav className={stl.nav}>
-            <a className={stl.item} href="/profile">
+            <NavLink className={stl.item} to="/profile" activeClassName={stl.active}>
                 <div><img className={stl.navImg} src="https://s.svgbox.net/hero-outline.svg?ic=user-circle" alt=""/></div>
                 <div>Profile</div>
-            </a>
-            <a className={stl.item} href="/dialogs">
+            </NavLink>
+            <NavLink className={stl.item} to="/dialogs" activeClassName={stl.active} >
                 <div><img className={stl.navImg} src="https://s.svgbox.net/hero-outline.svg?ic=chat" alt=""/></div>
                 <div>Dialogs</div>
-            </a>
-            <a className={stl.item} href="/news">
+            </NavLink>
+            <NavLink className={stl.item} to="/news" activeClassName={stl.active}>
                 <div><img className={stl.navImg} src="https://s.svgbox.net/hero-outline.svg?ic=document-text" alt=""/></div>
                 <div>News</div>
-            </a>
-            <a className={stl.item} href="/music">
+            </NavLink>
+            <NavLink className={stl.item} to="/music" activeClassName={stl.active}>
                 <div><img className={stl.navImg} src="https://s.svgbox.net/hero-outline.svg?ic=music-note" alt=""/></div>
                 <div>Music</div>
-            </a>
-            <a className={stl.item} href="/settings">
+            </NavLink>
+            <NavLink className={stl.item} to="/settings" activeClassName={stl.active}>
                 <div><img className={stl.navImg} src="https://s.svgbox.net/hero-outline.svg?ic=cog" alt=""/></div>
                 <div>Settings</div>
-            </a>
+            </NavLink>
             {/*<NavItem />*/}
             {/*<NavItem />*/}
             {/*<NavItem />*/}

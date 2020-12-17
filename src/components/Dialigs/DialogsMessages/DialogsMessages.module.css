@@ -1,0 +1,48 @@
+.dialogsMessages{
+    flex-grow: 1;
+    margin-left: 15px;
+    background-color: #fff;
+    border-bottom: solid 1px #aeaeae;
+    border-radius: 3px;
+
+    margin-bottom: 10px;
+
+    /*display: flex;*/
+    padding:15px;
+}
+.messageImgLeft{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+.messageImgLeft .messageAva{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 0 50% 50%;
+    margin-right: 10px;
+}
+.messageImgLeft .messageText{
+    background-color: #c6ddad;
+    border-radius: 0 15px 15px 15px;
+    margin:0;
+    padding: 7px;
+}
+
+.messageImgRight{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+.messageImgRight .messageAva{
+    width: 50px;
+    height: 50px;
+    border-radius: 0 50% 50% 50%;
+    margin-left: 10px;
+}
+.messageImgRight .messageText{
+    background-color: #add2dd;
+    border-radius: 15px 0 15px 15px;
+    margin:0;
+    padding: 7px;
+}
