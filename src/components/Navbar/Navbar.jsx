@@ -27,12 +27,6 @@ const Navbar = () => {
                 <div><img className={stl.navImg} src="https://s.svgbox.net/hero-outline.svg?ic=cog" alt=""/></div>
                 <div>Settings</div>
             </NavLink>
-            {/*<NavItem />*/}
-            {/*<NavItem />*/}
-            {/*<NavItem />*/}
-            {/*<NavItem />*/}
-            {/*<NavItem />*/}
-            {/*<a className={`${stl.item} ${stl.green}`} href="..">contacts</a>*/}
         </nav>
     );
 }
