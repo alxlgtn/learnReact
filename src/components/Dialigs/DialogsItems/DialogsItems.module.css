@@ -19,3 +19,13 @@
     border-radius: 50%;
     margin-right: 10px;
 }
+a{
+    text-decoration: none;
+    color: #aeaeae;
+}
+a:hover{
+    text-decoration: underline;
+}
+.active{
+    color: #000000;
+}

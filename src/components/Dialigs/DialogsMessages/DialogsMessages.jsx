@@ -1,34 +1,84 @@
 import React from "react";
 import stl from "./DialogsMessages.module.css"
 
+const MessageImgLeft = (props) => {
+    return (
+        <div className={stl.messageImgLeft}>
+            <img src={props.avaImage} alt="" className={stl.messageAva}/>
+            <p className={stl.messageText}>
+                {props.messageText}
+            </p>
+        </div>
+    );
+}
+const MessageImgRight = (props) => {
+    return (
+        <div className={stl.messageImgRight}>
+            <img src={props.avaImage} alt="" className={stl.messageAva}/>
+            <p className={stl.messageText}>
+                {props.messageText}
+            </p>
+        </div>
+    );
+}
 const DialogsMessages = () => {
+    let MessagesData = [
+        {
+            id: 1,
+            avaImage: 'https://html5css.ru/howto/img_avatar.png',
+            messageText: 'В целом, конечно, консультация с широким активом играет определяющее значение'
+        },
+        {
+            id: 2,
+            avaImage: 'https://html5css.ru/howto/img_avatar.png',
+            messageText: 'Идейные соображения высшего порядка, а также убеждённость некоторых оппонентов предполагает независимые способы реализации позиций'
+        },
+        {
+            id: 3,
+            avaImage: 'https://html5css.ru/howto/img_avatar.png',
+            messageText: 'Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные исследования могут быть функционально разнесены на независимые элементы.'
+        },
+        {
+            id: 4,
+            avaImage: 'https://html5css.ru/howto/img_avatar.png',
+            messageText: 'Учитывая ключевые сценарии поведения, базовый вектор развития не оставляет шанса для поставленных обществом задач.'
+        },
+        {
+            id: 5,
+            avaImage: 'https://html5css.ru/howto/img_avatar.png',
+            messageText: 'Ok!'
+        },
+
+    ]
+
     return (
         <div className={stl.dialogsMessages}>
-            <div className={stl.messageImgLeft}>
-                <img src="https://html5css.ru/howto/img_avatar.png" alt="" className={stl.messageAva}/>
-                <p className={stl.messageText}>
-                    В целом, конечно, консультация с широким активом играет определяющее значение для направлений прогрессивного развития.
-                </p>
-            </div>
-            <div className={stl.messageImgRight}>
-                <img src="https://html5css.ru/howto/img_avatar.png" alt="" className={stl.messageAva}/>
-                <p className={stl.messageText}>
-                    Многие известные личности описаны максимально подробно! В своём стремлении повысить качество жизни, они забывают, что новая модель организационной деятельности создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса поставленных обществом задач.
-                </p>
-            </div>
-            <div className={stl.messageImgLeft}>
-                <img src="https://html5css.ru/howto/img_avatar.png" alt="" className={stl.messageAva}/>
-                <p className={stl.messageText}>
-                    Идейные соображения высшего порядка, а также убеждённость некоторых оппонентов предполагает независимые способы реализации позиций, занимаемых участниками в отношении поставленных задач. Также как высококачественный прототип будущего проекта предоставляет широкие возможности для прогресса профессионального сообщества. Каждый из нас понимает очевидную вещь: дальнейшее развитие различных форм деятельности прекрасно подходит для реализации благоприятных перспектив.                </p>
-            </div>
-            <div className={stl.messageImgRight}>
-                <img src="https://html5css.ru/howto/img_avatar.png" alt="" className={stl.messageAva}/>
-                <p className={stl.messageText}>
-                    Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные исследования могут быть функционально разнесены на независимые элементы. Не следует, однако, забывать, что укрепление и развитие внутренней структуры однозначно определяет каждого участника как способного принимать собственные решения касаемо прогресса профессионального сообщества.
+            <MessageImgLeft
+                id = {MessagesData[0].id}
+                avaImage = {MessagesData[0].avaImage}
+                messageText = {MessagesData[0].messageText}
+            />
+            <MessageImgRight
+                id = {MessagesData[1].id}
+                avaImage = {MessagesData[1].avaImage}
+                messageText = {MessagesData[1].messageText}
+            />
+            <MessageImgLeft
+                id = {MessagesData[2].id}
+                avaImage = {MessagesData[2].avaImage}
+                messageText = {MessagesData[2].messageText}
+            />
+            <MessageImgRight
+                id = {MessagesData[3].id}
+                avaImage = {MessagesData[3].avaImage}
+                messageText = {MessagesData[3].messageText}
+            />
+            <MessageImgRight
+                id = {MessagesData[4].id}
+                avaImage = {MessagesData[4].avaImage}
+                messageText = {MessagesData[4].messageText}
+            />
 
-                    Имеется спорная точка зрения, гласящая примерно следующее: элементы политического процесса призывают нас к новым свершениям, которые, в свою очередь, должны быть в равной степени предоставлены сами себе. Господа, внедрение современных методик выявляет срочную потребность направлений прогрессивного развития. Учитывая ключевые сценарии поведения, базовый вектор развития не оставляет шанса для поставленных обществом задач. Мы вынуждены отталкиваться от того, что высокотехнологичная концепция общественного уклада выявляет срочную потребность системы массового участия. Не следует, однако, забывать, что существующая теория однозначно фиксирует необходимость системы обучения кадров, соответствующей насущным потребностям. Но действия представителей оппозиции преданы социально-демократической анафеме.Многие известные личности описаны максимально подробно! В своём стремлении повысить качество жизни, они забывают, что новая модель организационной деятельности создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса поставленных обществом задач.
-                </p>
-            </div>
         </div>
     );
 }
