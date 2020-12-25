@@ -1,13 +1,11 @@
 import React from "react";
 import stl from "./PostItem.module.css";
 
-// import GaleryItem from "./GaleryItem/GaleryItem";
-
 const PostItem = (props) => {
     return (
         <div className={stl.postItemBlock}>
             <div className={stl.avaBlock}>
-                <img className={stl.avaImg} src="https://html5css.ru/howto/img_avatar.png" alt=""/>
+                <img className={stl.avaImg} src={props.avaImg} alt={props.avaImgAlt}/>
                 <h4 className={stl.avaName}>
                     {props.usrName}
                 </h4>
@@ -22,6 +20,11 @@ const PostItem = (props) => {
                 <p className={stl.textParagraph}>
                     {props.postText}
                 </p>
+                <img width="20" src="https://s.svgbox.net/hero-outline.svg?ic=heart" alt=""/>
+                {props.postLikeCount}
+                <img width="20" src="https://s.svgbox.net/hero-outline.svg?ic=eye" alt=""/>
+                {props.postViewsCount}
+
             </div>
         </div>
     );

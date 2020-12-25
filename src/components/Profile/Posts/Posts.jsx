@@ -2,27 +2,25 @@ import React from "react";
 import stl from "./Posts.Module.css";
 import PostItem from "./PostItem/PostItem";
 
-let textForPost1 = "Внезапно, представители современных социальных резервов освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, представлены в исключительно положительном свете.";
-let textForPost2 = "Идейные соображения высшего порядка, а также понимание сути ресурсосберегающих технологий требует анализа системы массового участия.";
 
-
-const Posts = () => {
-
-
+const Posts = (props) => {
+    let postElement
+        =props.postsData.map(p =>
+        <PostItem
+            avaImg={p.avaImg}
+            avaImgAlt={p.avaImgAlt}
+            usrName={p.usrName}
+            postDate={p.postDate}
+            postTime={p.postTime}
+            postText={p.postText}
+            postLikeCount={p.postLikeCount}
+            postViewsCount={p.postViewsCount}
+        />
+    );
     return (
         <div className={stl.postsBlock}>
-            <PostItem usrName="Alex Legotin"
-                      postDate="08.12.2020"
-                      postTime="12:27"
-                      postText={textForPost1}
-            />
-            <PostItem usrName="Kost Ivanov"
-                      postDate="11.12.2020"
-                      postTime="16:55"
-                      postText={textForPost2}
-            />
+            {postElement}
         </div>
     );
 }
-
 export default Posts;

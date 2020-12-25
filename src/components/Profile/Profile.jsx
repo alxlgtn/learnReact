@@ -6,15 +6,14 @@ import About from "./About/About";
 import SubmitPost from "./SubmitPost/SubmitPost";
 import Posts from "./Posts/Posts";
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <div className={stl.content}>
-            <Galery />
-            <About />
-            <SubmitPost />
-            <Posts />
+            <Galery galeryData={props.galeryData}/>
+            <About aboutData={props.aboutData} />
+            <SubmitPost submitPostData={props.submitPostData}/>
+            <Posts postsData={props.postsData} />
         </div>
     );
 }
-
 export default Profile;

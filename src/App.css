@@ -44,7 +44,7 @@ h1 {
     margin: 0.67em 0;
 }
 
-/* Grouping content
+/* Grouping Content
    ========================================================================== */
 
 /**
@@ -140,7 +140,7 @@ sup {
     top: -0.5em;
 }
 
-/* Embedded content
+/* Embedded Content
    ========================================================================== */
 
 /**
@@ -389,6 +389,6 @@ body{
 }
 /*.header{grid-area: header;}*/
 /*.nav{grid-area: navbar;}*/
-/*.content{grid-area: content;}*/
+/*.Content{grid-area: Content;}*/
 /*.footer{grid-area: footer;}*/
 
