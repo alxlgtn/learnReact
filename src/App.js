@@ -19,11 +19,9 @@ import {Route} from "react-router-dom"
 const App = (props) => {
     return (
         <BrowserRouter>
-            <div className="app-wrapper">
-                
+            <div className="app-wrapper">                
                 <Header/>
                 <Navbar/>
-
                 <Route path='/profile'  render={ () => <Profile
                     galeryData={props.galeryData}
                     aboutData={props.aboutData}
@@ -34,8 +32,6 @@ const App = (props) => {
                 <Route path='/news'     render={ () => <News/> }/>
                 <Route path='/music'    render={ () => <Music/> }/>
                 <Route path='/settings' render={ () => <Settings/> }/>
-
-
                 <Footer/>
             </div>
         </BrowserRouter>
