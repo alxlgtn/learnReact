@@ -20,10 +20,12 @@ const PostItem = (props) => {
                 <p className={stl.textParagraph}>
                     {props.postText}
                 </p>
-                <img width="20" src="https://s.svgbox.net/hero-outline.svg?ic=heart" alt=""/>
-                {props.postLikeCount}
-                <img width="20" src="https://s.svgbox.net/hero-outline.svg?ic=eye" alt=""/>
-                {props.postViewsCount}
+                <div className={stl.countBlock}>
+                    <img className={stl.countBlockIcon} src="https://s.svgbox.net/hero-outline.svg?ic=heart" alt=""/>
+                    <p className={stl.countBlockDigit}>{props.postLikeCount}</p>
+                    <img className={stl.countBlockIcon} src="https://s.svgbox.net/hero-outline.svg?ic=eye" alt=""/>
+                    <p className={stl.countBlockDigit}>{props.postViewsCount}</p>
+                </div>
 
             </div>
         </div>

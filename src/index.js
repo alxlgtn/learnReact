@@ -62,8 +62,8 @@ let postsData = [
         postViewsCount: '1000',
     },
 ]
-// Dialogs Data
 
+// Dialogs Data
 let DialogsData = [
     {
         id: 1,
@@ -113,8 +113,8 @@ let DialogsData = [
         imageLink: 'https://html5css.ru/howto/img_avatar.png',
         imageAltText: 'ava7'
     },
-
 ]
+
 let MessagesData = [
     {
         avaImage: 'https://html5css.ru/howto/img_avatar.png',
@@ -152,7 +152,6 @@ let MessagesData = [
         avaImage: 'https://html5css.ru/howto/img_avatar.png',
         messageText: 'LaLaLa!'
     },
-
 ]
 
 ReactDOM.render(

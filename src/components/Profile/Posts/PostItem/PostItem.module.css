@@ -8,10 +8,6 @@
     flex-basis: 150px;
     /*margin-right:200px;*/
 }
-.textBlock{
-    flex-basis: 300px;
-    flex-grow: 1;
-}
 .avaImg{
     width: 100px;
     /*width: 100%;*/
@@ -35,10 +31,40 @@
     margin: 0;
     padding: 0;
 }
+
+.textBlock{
+    flex-basis: 300px;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
 .textParagraph{
     margin: 0;
     padding: 0 0 5px 0;
     font-size: 14px;
     color: #333;
+    background-color: rgb(247, 247, 247);
+    padding: 5px;
+    border-radius: 5px;
     /*max-width: 70%;*/
+
+    flex-grow: 1;
+}
+
+.countBlock{
+    display: flex;
+    /* background-color: #ff0;  */
+    justify-content: flex-end;
+}
+.countBlockDigit{
+    font-size: 12px;
+    margin: 3px 10px 3px 3px;
+}
+.countBlockDigit:last-child{
+    margin-right: 0;
+}
+.countBlockIcon{
+    width: 12px;
 }
