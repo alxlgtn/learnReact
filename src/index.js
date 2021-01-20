@@ -63,6 +63,7 @@ let postsData = [
     },
 ]
 // Dialogs Data
+
 let DialogsData = [
     {
         id: 1,
@@ -164,7 +165,6 @@ ReactDOM.render(
 
         DialogsData={DialogsData}
         MessagesData={MessagesData}
-
     />
   </React.StrictMode>,
   document.getElementById('root')

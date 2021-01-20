@@ -29,10 +29,7 @@ const App = (props) => {
                     submitPostData={props.submitPostData}
                     postsData={props.postsData}
                 /> }/>
-                <Route path='/dialogs'  render={ () => <Dialogs
-                    DialogsData={props.DialogsData}
-                    MessagesData={props.MessagesData}
-                />}/>
+                <Route path='/dialogs'  render={ () => <Dialogs DialogsData={props.DialogsData} MessagesData={props.MessagesData}/>}/>
                 <Route path='/news'     render={ () => <News/> }/>
                 <Route path='/music'    render={ () => <Music/> }/>
                 <Route path='/settings' render={ () => <Settings/> }/>

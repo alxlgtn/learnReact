@@ -4,12 +4,12 @@ import DialogItem from "./DialogItem/DialogItem";
 
 const DialogsItems = (props) => {
     let dialogsElement
-        = props.DialogsData.map( d =>
+        = props.DialogsData.map( dlg =>
         <DialogItem
-            id={d.id}
-            name={d.name}
-            imageLink={d.imageLink}
-            imageAltText={d.imageAltText}
+            id={dlg.id}
+            name={dlg.name}
+            imageLink={dlg.imageLink}
+            imageAltText={dlg.imageAltText}
         /> );
     return (
         <div className={stl.dialogsItems}>
@@ -17,5 +17,4 @@ const DialogsItems = (props) => {
         </div>
     );
 }
-
 export default DialogsItems;
