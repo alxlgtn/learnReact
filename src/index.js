@@ -4,6 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Header Data
+let headerData = [
+    {
+        headerLogoImgLink: 'https://s.svgbox.net/files.svg?ic=reactjs',
+        headerLogoImgAltTxt: 'logo img alt text',
+        headerLogoText: 'ReactApp!!!',
+
+        headerSearchInputType: 'text',
+        headerSearchInputName: 'searchform',
+        headerSearchInputId: '1',
+        headerSearchInputPlaceholder: 'Поиск',
+    },
+]
+
 // Profile Data
 let galeryData = [
     {
@@ -157,6 +171,8 @@ let MessagesData = [
 ReactDOM.render(
   <React.StrictMode>
     <App
+        headerData={headerData}
+
         galeryData={galeryData}
         aboutData={aboutData}
         submitPostData={submitPostData}

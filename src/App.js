@@ -15,12 +15,21 @@ import Settings from "./components/Settings/Settings";
 import {BrowserRouter} from "react-router-dom"
 import {Route} from "react-router-dom"
 
+// Header Data
+// let headerLogoData = [
+//     {
+//         logoHeader: 'ReactApp',
+//         imageLink: 'https://s.svgbox.net/files.svg?ic=reactjs',
+//         imageAltText: 'logo img alt text'
+//     },
+// ]
 
 const App = (props) => {
     return (
         <BrowserRouter>
             <div className="app-wrapper">                
-                <Header/>
+                <Header headerData={props.headerData} />
+
                 <Navbar/>
                 <Route path='/profile'  render={ () => <Profile
                     galeryData={props.galeryData}

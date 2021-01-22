@@ -23,13 +23,13 @@ const ProfileInfo = (props) => {
 }
 
 const About = (props) => {
-    let avatarBlock
-        =props.aboutData.map ( av =>
+
+    let avatarBlock = props.aboutData.map ( av =>
     <Avatar
         avatarImg={av.avatarImg}
     /> );
-    let profileInfoBlock
-        =props.aboutData.map ( p =>
+
+    let profileInfoBlock = props.aboutData.map ( p =>
     <ProfileInfo
         nickName={p.nickName}
         firstName={p.firstName}
@@ -40,6 +40,7 @@ const About = (props) => {
         site={p.site}
 
     />);
+    
     return (
         <div className={stl.aboutBlock}>
             {avatarBlock}
