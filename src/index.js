@@ -11,10 +11,53 @@ let headerData = [
         headerLogoImgAltTxt: 'logo img alt text',
         headerLogoText: 'ReactApp!!!',
 
+        headerAvaLink: './',
+        headerAvaImgLink: 'https://html5css.ru/howto/img_avatar.png',
+        headerAvaImgAltText: 'AlxlgtnAva',
+        headerNickName: 'AlxLgtn',
+
         headerSearchInputType: 'text',
         headerSearchInputName: 'searchform',
         headerSearchInputId: '1',
         headerSearchInputPlaceholder: 'Поиск',
+    },
+]
+
+let headerSocialLinksData = [
+    {
+        headerSocialLink: './',
+        headerSocialImgLink: 'https://s.svgbox.net/social.svg?ic=codepen',
+        headerSocialImgAltText: 'codepen',
+    },
+    {
+        headerSocialLink: './',
+        headerSocialImgLink: 'https://s.svgbox.net/social.svg?ic=github',
+        headerSocialImgAltText: 'github',
+    },
+    {
+        headerSocialLink: './',
+        headerSocialImgLink: 'https://s.svgbox.net/social.svg?ic=myspace',
+        headerSocialImgAltText: 'myspace',
+    },
+    {
+        headerSocialLink: './',
+        headerSocialImgLink: 'https://s.svgbox.net/social.svg?ic=pinterest',
+        headerSocialImgAltText: 'pinterest',
+    },
+    {
+        headerSocialLink: './',
+        headerSocialImgLink: 'https://s.svgbox.net/social.svg?ic=telegram',
+        headerSocialImgAltText: 'telegram',
+    },
+    {
+        headerSocialLink: './',
+        headerSocialImgLink: 'https://s.svgbox.net/social.svg?ic=upwork',
+        headerSocialImgAltText: '',
+    },
+    {
+        headerSocialLink: './',
+        headerSocialImgLink: 'https://s.svgbox.net/social.svg?ic=youtube',
+        headerSocialImgAltText: 'youtube',
     },
 ]
 
@@ -172,6 +215,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App
         headerData={headerData}
+        headerSocialLinksData={headerSocialLinksData}
 
         galeryData={galeryData}
         aboutData={aboutData}

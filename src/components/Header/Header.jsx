@@ -20,9 +20,9 @@ const Header = (props) => {
         <header className={stl.header}>
             <div className={stl.innerHeader}>
                 <Logo headerData={props.headerData} />
-                <Search headerData={props.headerData}/>
+                <Search headerData={props.headerData}/>                
                 <PersonAva headerData={props.headerData}/>
-                <Links headerData={props.headerData}/>
+                <Links headerSocialLinksData={props.headerSocialLinksData}/>
             </div>
         </header>
     );

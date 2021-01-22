@@ -28,7 +28,10 @@ const App = (props) => {
     return (
         <BrowserRouter>
             <div className="app-wrapper">                
-                <Header headerData={props.headerData} />
+                <Header 
+                    headerData={props.headerData} 
+                    headerSocialLinksData={props.headerSocialLinksData} 
+                />
 
                 <Navbar/>
                 <Route path='/profile'  render={ () => <Profile

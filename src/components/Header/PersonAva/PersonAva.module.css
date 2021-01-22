@@ -1,8 +1,9 @@
 .personAvaBlock{
-    /*background-color: #d6f5fd;*/
+    /* background-color: #c4c8c9; */
 
     display: flex;
     align-self: center;
+
 
     padding-left: 15px;
     padding-right: 15px;
@@ -10,13 +11,17 @@
 }
 .item{
     display: flex;
-    align-self: center;
+    align-items: center;
+    /* align-self: center; */
 
     padding-left: 3px;
     padding-right: 3px;
+    color: #000;
+    /* font-weight: bold; */
 }
-.ava{
+.img{
     height: 30px;
     border-radius: 50%;
+    margin-right: 5px;
 
 }
