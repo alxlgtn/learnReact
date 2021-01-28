@@ -6,23 +6,14 @@ import Search from "./Search/Search";
 import PersonAva from "./PersonAva/PersonAva";
 import Links from "./Links/Links";
 
-// Header Data
-// let headerLogoData = [
-//     {
-//         logoHeader: 'ReactApp',
-//         imageLink: 'https://s.svgbox.net/files.svg?ic=reactjs',
-//         imageAltText: 'logo img alt text'
-//     },
-// ]
-
 const Header = (props) => {
     return (
         <header className={stl.header}>
             <div className={stl.innerHeader}>
-                <Logo headerData={props.headerData} />
-                <Search headerData={props.headerData}/>                
-                <PersonAva headerData={props.headerData}/>
-                <Links headerSocialLinksData={props.headerSocialLinksData}/>
+                <Logo headerData={props.state.headerData } />
+                <Search headerData={props.state.headerData}/>                
+                <PersonAva headerData={props.state.headerData}/>
+                <Links headerSocialLinksData={props.state.headerSocialLinksData}/>
             </div>
         </header>
     );

@@ -9,10 +9,10 @@ import Posts from "./Posts/Posts";
 const Profile = (props) => {
     return (
         <div className={stl.content}>
-            <Galery galeryData={props.galeryData}/>
-            <About aboutData={props.aboutData} />
-            <SubmitPost submitPostData={props.submitPostData}/>
-            <Posts postsData={props.postsData} />
+            <Galery galeryData={props.state.galeryData}/>
+            <About aboutData={props.state.aboutData} />
+            <SubmitPost submitPostData={props.state.submitPostData}/>
+            <Posts postsData={props.state.postsData} />
         </div>
     );
 }
