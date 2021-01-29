@@ -10,8 +10,12 @@ const Profile = (props) => {
     return (
         <div className={stl.content}>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <About aboutData={props.state.aboutData} />
+=======
+>>>>>>> parent of ab2f713... brackepoint
             <Galery galeryData={props.state.galeryData}/>
+            <About aboutData={props.state.aboutData} />
             <SubmitPost submitPostData={props.state.submitPostData}/>
             <Posts postsData={props.state.postsData} />
 =======
