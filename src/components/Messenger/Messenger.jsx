@@ -1,8 +1,8 @@
 import React from "react";
-import stl from "./Dialogs.module.css";
+import stl from "./Messenger.module.css";
 
-import DialogsItems from "./DialogsItems/DialogsItems";
-import DialogsMessages from "./DialogsMessages/DialogsMessages";
+import DialogsItems from "./Dialogs/Dialogs";
+import DialogsMessages from "./Messages/Messages";
 
 const Dialogs = (props) => {
     return (

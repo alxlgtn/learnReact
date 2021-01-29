@@ -7,8 +7,16 @@ const SubmitHeader = (props) => {
     );
 }
 const SubmitTextarea = (props) => {
+    // let newPostElement = React.createRef();
+
+    // let addPost = () => {
+    //     let text = newPostElement.current.value;
+    //     alert(text);
+    // }
+
     return (
-        <textarea
+        <textarea 
+            // ref={newPostElement}
             className={stl.textarea}
             name={props.textareaName}
             id={props.textareaId}
@@ -19,12 +27,18 @@ const SubmitTextarea = (props) => {
     );
 }
 const SubmitButton = (props) => {
+
     return (
-        <button className={stl.button}>{props.buttonText}</button>
+        <button 
+            // onClick={addPost} 
+            className={stl.button}>
+                {props.buttonText}
+        </button>
     );
 }
 
 const SubmitPost = (props) => {
+
     let submitHeaderBlock
         =props.submitPostData.map ( s =>
         <SubmitHeader
@@ -44,6 +58,7 @@ const SubmitPost = (props) => {
         <SubmitButton
             buttonText={b.buttonText}
         /> );
+
     return (
         <div className={stl.submitPostBlock}>
             {submitHeaderBlock}

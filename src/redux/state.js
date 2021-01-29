@@ -87,7 +87,7 @@ let state = {
                 textareaCols: '30',
                 textareaRows: '2',
                 textareaPlaceholder: '...',
-                buttonText: 'Sand',
+                buttonText: 'Add post',
 
             }
         ],
@@ -114,7 +114,7 @@ let state = {
             }
         ]        
     },
-    pageMessages: {
+    pageMessenger: {
         dialogsData: [
             {
                 id: 1,

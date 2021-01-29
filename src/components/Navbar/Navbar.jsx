@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div><img className={stl.navImg} src="https://s.svgbox.net/hero-outline.svg?ic=user-circle" alt=""/></div>
                 <div>Profile</div>
             </NavLink>
-            <NavLink className={stl.item} to="/dialogs" activeClassName={stl.active} >
+            <NavLink className={stl.item} to="/messenger" activeClassName={stl.active} >
                 <div><img className={stl.navImg} src="https://s.svgbox.net/hero-outline.svg?ic=chat" alt=""/></div>
                 <div>Dialogs</div>
             </NavLink>

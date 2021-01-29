@@ -1,9 +1,14 @@
 import React from "react";
-import stl from "./DialogsMessages.module.css"
-// import MessageItem from "./MessageItem/MessageItem";
+import stl from "./Messages.module.css"
+
 
 const DialogsMessages = (props) => {
-    let massagesElements = props.MessagesData.map(m => <MessageItem avaImage={m.avaImage} messageText={m.messageText}/>);
+    let massagesElements = props.MessagesData.map(m => 
+        <MessageItem 
+            avaImage={m.avaImage} 
+            messageText={m.messageText}
+        />);
+        
     return (
         <div className={stl.dialogsMessages}>
             { massagesElements }
