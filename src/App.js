@@ -19,6 +19,7 @@ const App = (props) => {
     return (
         <BrowserRouter>
             <div className="app-wrapper">                
+<<<<<<< HEAD
                 <Header state = {props.state.partHeader} />
                 <Navbar state = {props.state.partNavbar}/>
                 <Route path='/profile' render = { () => <Profile state = {props.state.pageProfile} /> }/>
@@ -27,6 +28,28 @@ const App = (props) => {
                 {/* <Route path='/music'    render={ () => <Music/> }/> */}
                 {/* <Route path='/settings' render={ () => <Settings/> }/> */}
                 {/* <Footer/> */}
+=======
+                <Header 
+                    headerData={props.headerData} 
+                    headerSocialLinksData={props.headerSocialLinksData} 
+                />
+
+                <Navbar/>
+                <Route path='/profile'  render={ () => <Profile
+                    galeryData={props.galeryData}
+                    aboutData={props.aboutData}
+                    submitPostData={props.submitPostData}
+                    postsData={props.postsData}
+                /> }/>
+                <Route path='/dialogs'  render={ () => <Dialogs 
+                    DialogsData={props.DialogsData} 
+                    MessagesData={props.MessagesData}
+                />}/>
+                <Route path='/news'     render={ () => <News/> }/>
+                <Route path='/music'    render={ () => <Music/> }/>
+                <Route path='/settings' render={ () => <Settings/> }/>
+                <Footer/>
+>>>>>>> parent of dae5651... 29 lesson - state
             </div>
         </BrowserRouter>
     );
